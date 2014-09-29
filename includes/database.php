@@ -5,7 +5,7 @@
  * Date: 29/09/14
  * Time: 11:20
  */
-require_once("config.php");
+require_once("myconfig.php");
 
 class MYSQLDatabase{
 
@@ -40,7 +40,7 @@ class MYSQLDatabase{
         $this->confirm_query($result);
         return $result;
     }
-    public function mysql_prep( $value ) {
+    public function escape_value( $value ) {
         $magic_quotes_active = get_magic_quotes_gpc();
         $new_enough_php = function_exists( "mysql_real_escape_string" ); // i.e. PHP >= v4.3.0
         if( $new_enough_php ) { // PHP v4.3.0 or higher
@@ -54,6 +54,21 @@ class MYSQLDatabase{
         }
         return $value;
     }
+    //"database-neutral methods"
+    public function fetch_array($result_set){
+        return mysql_fetch_array($result_set);
+    }
+    public function num_rows($result_set){
+        return mysql_num_rows($result_set);
+    }
+    public function insert_id(){
+        // get the last id inserted over the current db connection
+        return mysql_insert_id($this->connection);
+    }
+    public function affected_rows(){
+        return mysql_affected_rows($this->connection);
+    }
+
     private function confirm_query($result){
         if (!$result) {
             die("Database query failed: " . mysql_error());
