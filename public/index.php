@@ -4,9 +4,9 @@ echo isset($database)? "true" : "false";
 echo "<br/>";
 echo $database->escape_value("It's working?<br/>");
 
-/*$sql = "INSERT INTO users (id,username,password, first_name, last_name)";
+$sql = "INSERT INTO users (id,username,password, first_name, last_name)";
 $sql .= "VALUES (1,'sakib','1234','Sabbir','Rahman')";
-$result = $database->query($sql);*/
+$result = $database->query($sql);
 
 
 $sql = "SELECT * FROM users WHERE id=1";

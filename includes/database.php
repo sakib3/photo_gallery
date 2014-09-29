@@ -10,8 +10,14 @@ require_once("myconfig.php");
 class MYSQLDatabase{
 
     private $connection;
+    public $last_query;
+    private $magic_quotes_active;
+    private $real_escape_string_exists;
+
     function __construct(){
         $this->open_connection();
+        $this->magic_quotes_active = get_magic_quotes_gpc();
+        $this->real_escape_string_exists = function_exists( "mysql_real_escape_string" ); // i.e. PHP >= v4.3.0
     }
     function open_connection(){
         // 1. Create a database connection
@@ -34,6 +40,7 @@ class MYSQLDatabase{
         }
     }
     public function query($sql){
+        $this->last_query = $sql;
         // 3. Perform database query
 
         $result = mysql_query($sql, $this->connection);
@@ -41,15 +48,16 @@ class MYSQLDatabase{
         return $result;
     }
     public function escape_value( $value ) {
-        $magic_quotes_active = get_magic_quotes_gpc();
-        $new_enough_php = function_exists( "mysql_real_escape_string" ); // i.e. PHP >= v4.3.0
-        if( $new_enough_php ) { // PHP v4.3.0 or higher
+
+        if( $this->real_escape_string_exists ) { // PHP v4.3.0 or higher
             // undo any magic quote effects so mysql_real_escape_string can do the work
-            if( $magic_quotes_active ) { $value = stripslashes( $value ); }
+            if( $this->magic_quotes_active ) {
+                $value = stripslashes( $value );
+            }
             $value = mysql_real_escape_string( $value );
         } else { // before PHP v4.3.0
             // if magic quotes aren't already on then add slashes manually
-            if( !$magic_quotes_active ) { $value = addslashes( $value ); }
+            if( !$this->magic_quotes_active ) { $value = addslashes( $value ); }
             // if magic quotes are active, then the slashes already exist
         }
         return $value;
@@ -71,7 +79,9 @@ class MYSQLDatabase{
 
     private function confirm_query($result){
         if (!$result) {
-            die("Database query failed: " . mysql_error());
+            $output ="Database query failed: " . mysql_error()."<br/><br/>";
+            $output .="Last SQL query ".$this->last_query."<br/>";
+            die($output);
         }
     }
 }
