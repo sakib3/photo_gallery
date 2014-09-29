@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="749242df-5d88-4286-9481-c679a48d758c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database.php" afterPath="$PROJECT_DIR$/includes/database.php" />
     </list>
     <ignored path="photo_gallery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,12 +30,10 @@
       <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46721312" vertical-offset="0" max-vertical-offset="610">
-              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.3114754" vertical-offset="260" max-vertical-offset="870">
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding>
-                <element signature="n#__construct#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
-                <element signature="n#open_connection#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
-                <element signature="n#close_connection#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+                <element signature="n#mysql_prep#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -64,7 +61,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="618" />
+    <option name="x" value="304" />
     <option name="y" value="22" />
     <option name="width" value="1004" />
     <option name="height" value="731" />
@@ -173,7 +170,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="618" y="22" width="1004" height="731" extended-state="0" />
+    <frame x="304" y="22" width="1004" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -215,7 +212,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -256,12 +253,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46721312" vertical-offset="0" max-vertical-offset="610">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.3114754" vertical-offset="260" max-vertical-offset="870">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding>
-            <element signature="n#__construct#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
-            <element signature="n#open_connection#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
-            <element signature="n#close_connection#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#mysql_prep#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
