@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="749242df-5d88-4286-9481-c679a48d758c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/user.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/user.php" afterPath="$PROJECT_DIR$/includes/user.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="photo_gallery.iws" />
@@ -32,29 +32,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="540">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.27093595" vertical-offset="0" max-vertical-offset="609">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="540">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding>
-                <marker date="1411990287000" expanded="true" signature="204:267" placeholder="INSERT INTO ..." />
-                <marker date="1411990287000" expanded="true" signature="371:401" placeholder="SELECT * FRO..users..." />
+                <element signature="n#find_all#0;n#User#0;n#!!top" expanded="false" />
+                <element signature="n#find_by_id#0;n#User#0;n#!!top" expanded="false" />
+                <element signature="n#find_by_sql#0;n#User#0;n#!!top" expanded="false" />
+                <element signature="n#full_name#0;n#User#0;n#!!top" expanded="false" />
+                <marker date="1411991846000" expanded="true" signature="311:330" placeholder="SELECT * FRO..users..." />
+                <marker date="1411991846000" expanded="true" signature="454:483" placeholder="SELECT * FRO..users..." />
+                <marker date="1411991846000" expanded="true" signature="454:488" placeholder="SELECT * FRO..users..." />
+                <marker date="1411991846000" expanded="true" signature="454:496" placeholder="SELECT * FRO..users..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/user.php">
+      <file leaf-file-name="myconfig.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/myconfig.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6639344" vertical-offset="0" max-vertical-offset="610">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-              <folding>
-                <marker date="1411990449000" expanded="true" signature="235:254" placeholder="SELECT * FRO..users..." />
-                <marker date="1411990449000" expanded="true" signature="404:433" placeholder="SELECT * FRO..users..." />
-                <marker date="1411990449000" expanded="true" signature="404:438" placeholder="SELECT * FRO..users..." />
-              </folding>
+            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="210">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,7 +74,7 @@
       <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.541666" vertical-offset="35" max-vertical-offset="840">
+            <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="840">
               <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
               <folding>
                 <element signature="n#open_connection#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
@@ -95,17 +107,18 @@
         <option value="$PROJECT_DIR$/init.mysql" />
         <option value="$PROJECT_DIR$/includes/config.php" />
         <option value="$PROJECT_DIR$/includes/database.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/includes/user.php" />
+        <option value="$PROJECT_DIR$/includes/myconfig.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="565" />
-    <option name="y" value="33" />
+    <option name="x" value="186" />
+    <option name="y" value="22" />
     <option name="width" value="1004" />
-    <option name="height" value="731" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -231,7 +244,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="565" y="33" width="1004" height="731" extended-state="0" />
+    <frame x="186" y="22" width="1004" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -273,19 +286,100 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="540">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="n#find_all#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#find_by_id#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#find_by_sql#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#full_name#0;n#User#0;n#!!top" expanded="false" />
+            <marker date="1411991846000" expanded="true" signature="311:330" placeholder="SELECT * FRO..users..." />
+            <marker date="1411991846000" expanded="true" signature="454:483" placeholder="SELECT * FRO..users..." />
+            <marker date="1411991846000" expanded="true" signature="454:488" placeholder="SELECT * FRO..users..." />
+            <marker date="1411991846000" expanded="true" signature="454:496" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="840">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding>
+            <element signature="n#open_connection#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#close_connection#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#query#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#fetch_array#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#num_rows#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#insert_id#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#affected_rows#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#confirm_query#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="360">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#find_all#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#find_by_id#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#find_by_sql#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#full_name#0;n#User#0;n#!!top" expanded="false" />
+            <marker date="1411991846000" expanded="true" signature="311:330" placeholder="SELECT * FRO..users..." />
+            <marker date="1411991846000" expanded="true" signature="454:483" placeholder="SELECT * FRO..users..." />
+            <marker date="1411991846000" expanded="true" signature="454:488" placeholder="SELECT * FRO..users..." />
+            <marker date="1411991846000" expanded="true" signature="454:496" placeholder="SELECT * FRO..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="840">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding>
+            <element signature="n#open_connection#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#close_connection#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#query#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#fetch_array#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#num_rows#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#insert_id#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#affected_rows#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#confirm_query#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1411990287000" expanded="true" signature="204:267" placeholder="INSERT INTO ..." />
-            <marker date="1411990287000" expanded="true" signature="371:401" placeholder="SELECT * FRO..users..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -307,14 +401,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/init.mysql">
@@ -335,34 +428,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6885246" vertical-offset="0" max-vertical-offset="610">
           <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/myconfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="285">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09933775" vertical-offset="0" max-vertical-offset="604">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.541666" vertical-offset="35" max-vertical-offset="840">
+        <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="840">
           <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
           <folding>
             <element signature="n#open_connection#0;n#MYSQLDatabase#0;n#!!top" expanded="false" />
@@ -377,26 +458,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/includes/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="540">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="540">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
-            <marker date="1411990287000" expanded="true" signature="204:267" placeholder="INSERT INTO ..." />
-            <marker date="1411990287000" expanded="true" signature="371:401" placeholder="SELECT * FRO..users..." />
+            <element signature="n#find_all#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#find_by_id#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#find_by_sql#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#full_name#0;n#User#0;n#!!top" expanded="false" />
+            <marker date="1411991846000" expanded="true" signature="311:330" placeholder="SELECT * FRO..users..." />
+            <marker date="1411991846000" expanded="true" signature="454:483" placeholder="SELECT * FRO..users..." />
+            <marker date="1411991846000" expanded="true" signature="454:488" placeholder="SELECT * FRO..users..." />
+            <marker date="1411991846000" expanded="true" signature="454:496" placeholder="SELECT * FRO..users..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/user.php">
+    <entry file="file://$PROJECT_DIR$/includes/myconfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6639344" vertical-offset="0" max-vertical-offset="610">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <marker date="1411990449000" expanded="true" signature="235:254" placeholder="SELECT * FRO..users..." />
-            <marker date="1411990449000" expanded="true" signature="404:433" placeholder="SELECT * FRO..users..." />
-            <marker date="1411990449000" expanded="true" signature="404:438" placeholder="SELECT * FRO..users..." />
-          </folding>
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="210">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27093595" vertical-offset="0" max-vertical-offset="609">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
